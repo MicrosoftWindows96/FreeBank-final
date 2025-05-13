@@ -51,6 +51,4 @@ echo "- Hardhat node running on http://localhost:8545"
 echo "- React frontend starting on http://localhost:3000"
 echo
 echo "Remember to connect MetaMask to localhost:8545 and import one of the test accounts."
-echo
-echo "Demo account is available - click \"Try Demo\" on the login page."
 echo 
