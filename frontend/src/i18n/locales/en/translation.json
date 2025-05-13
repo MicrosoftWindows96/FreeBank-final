@@ -1,0 +1,75 @@
+{
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "overview_message": "Here's an overview of your financial status and recent activity.",
+    "available_balance": "Available Balance",
+    "recent_transactions": "Recent Transactions",
+    "view_all": "View All",
+    "search": "Search transactions, accounts...",
+    "deposit": "Deposit",
+    "withdraw": "Withdraw",
+    "transfer": "Transfer",
+    "back": "Back to Dashboard",
+    "no_transactions": "No transactions to display",
+    "monthly_change": "Monthly Change",
+    "last_activity": "Last Activity",
+    "transactions_this_month": "Transactions This Month",
+    "since_last_month": "since last month",
+    "no_activity": "No activity",
+    "quick_access": {
+      "analytics": "Analytics",
+      "analytics_desc": "View detailed reports of your financial activity",
+      "notifications": "Notifications",
+      "notifications_desc": "Set up alerts for account activity",
+      "security": "Security",
+      "security_desc": "Manage account security settings"
+    }
+  },
+  
+  "dates": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "days_ago": "{{count}} days ago"
+  },
+  
+  "status": {
+    "completed": "Completed",
+    "pending": "Pending",
+    "failed": "Failed"
+  },
+  
+  "app_name": "Inclusive Banking",
+  
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dec"
+  },
+  
+  "success": {
+    "deposit_successful": "Deposit successful",
+    "withdrawal_successful": "Withdrawal successful",
+    "transfer_successful": "Transfer successful"
+  },
+  
+  "errors": {
+    "wallet_not_connected": "Wallet not connected",
+    "transaction_failed": "Transaction failed",
+    "registration_failed": "Registration failed"
+  }
+} 

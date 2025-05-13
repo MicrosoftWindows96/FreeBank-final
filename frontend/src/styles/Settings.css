@@ -1,0 +1,45 @@
+
+.educational-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.educational-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: auto;
+  max-width: 80%;
+}
+
+.educational-button:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.educational-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.educational-icon {
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+}
+
+[dir="rtl"] .educational-icon {
+  margin-right: 0;
+  margin-left: 0.8rem;
+} 
