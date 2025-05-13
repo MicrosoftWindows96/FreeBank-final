@@ -217,4 +217,8 @@ contract InclusiveBankingSystem is ReentrancyGuard, Ownable {
     function pauseTokenTransfers() public onlyOwner {
         token.pause();
     }
+    
+    function unpauseTokenTransfers() public onlyOwner {
+        token.unpause();
+    }
 } 
